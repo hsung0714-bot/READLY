@@ -48,3 +48,13 @@ export interface ReadingLog {
   pagesRead: number;
   bookId: string;
 }
+
+export interface RecommendedBook {
+  id: string;
+  title: string;
+  author: string;
+  coverColor: string;
+  genre: string;
+  description: string;
+  totalPages: number;
+}

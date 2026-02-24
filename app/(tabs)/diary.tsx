@@ -23,7 +23,7 @@ export default function DiaryScreen() {
   return (
     <ThemedView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
-        <ThemedText style={styles.title}>독서 일기장</ThemedText>
+        <ThemedText style={styles.title}>내 일기장</ThemedText>
 
         <View style={styles.segmentRow}>
           {SEGMENTS.map((seg) => (

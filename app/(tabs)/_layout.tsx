@@ -17,30 +17,37 @@ export default function TabLayout() {
         tabBarButton: HapticTab,
       }}>
       <Tabs.Screen
-        name="index"
+        name="discover"
         options={{
-          title: '홈',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="calendar" color={color} />,
+          title: '도서관',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="sparkles" color={color} />,
         }}
       />
       <Tabs.Screen
         name="library"
         options={{
-          title: '내 도서관',
+          title: '내 서재',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="books.vertical" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="index"
+        options={{
+          title: '홈',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="diary"
         options={{
-          title: '독서 일기장',
+          title: '내 일기장',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="book" color={color} />,
         }}
       />
       <Tabs.Screen
         name="mypage"
         options={{
-          title: '마이페이지',
+          title: '마이',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.fill" color={color} />,
         }}
       />

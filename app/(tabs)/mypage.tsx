@@ -20,7 +20,7 @@ export default function MyPageScreen() {
   return (
     <ThemedView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
-        <ThemedText style={styles.title}>마이페이지</ThemedText>
+        <ThemedText style={styles.title}>마이</ThemedText>
 
         {/* Profile */}
         <View style={[styles.profileCard, { backgroundColor: cardBg }]}>

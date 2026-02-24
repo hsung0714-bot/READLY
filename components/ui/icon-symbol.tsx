@@ -22,6 +22,7 @@ const MAPPING = {
   'books.vertical': 'library-books',
   'book': 'menu-book',
   'person.fill': 'person',
+  'sparkles': 'auto-awesome',
 } as IconMapping;
 
 /**

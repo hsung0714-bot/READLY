@@ -97,7 +97,7 @@ export default function LibraryScreen() {
   return (
     <ThemedView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
-        <ThemedText style={styles.title}>내 도서관</ThemedText>
+        <ThemedText style={styles.title}>내 서재</ThemedText>
 
         <TextInput
           style={[styles.searchBar, { backgroundColor: inputBg, color: textColor }]}
